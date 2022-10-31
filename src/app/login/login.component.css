@@ -1,0 +1,12 @@
+.col-4{
+    height: 420px;
+}
+.col-3{
+    background-color:rgb(175, 173, 170);
+}
+.image{
+    height:35px;
+    width:35px;
+    margin-top: 25px;
+    margin-left: 95px;
+}

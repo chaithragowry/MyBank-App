@@ -1,0 +1,20 @@
+<div class="row pt-4 " >
+   
+    <div class="col-4"></div>
+    <div class="col-3 mt-2 border-3  rounded-5 shadow" id="id1">
+        <img src="./assets/image/bank2.svg" class="image">
+        <h1 class="mb-4 mt-2 pt-2 text-center "> My bank </h1>
+        
+        <h6 class="ms-2">{{aim}}</h6>
+        <input (change)="acnoChange($event)" type="text" [placeholder]="account" class="form-control shadow rounded-3 mt-2 " id="Account">
+
+        <input (change)="pswdChange($event)" type="text" placeholder="Password" class="form-control shadow rounded-3 mt-3" id="Password">
+
+        <button class="btn btn-primary mt-3  border-radius=50px" style="width:100%" (click)="login()" type="button" >Login</button>
+        <div class="text-center pt-4">
+        <a href="#">Forgot Password </a> Or <a href="signup.html">Login</a></div>
+        </div>
+        <div></div>
+        </div>
+
+
